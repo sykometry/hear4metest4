@@ -1,0 +1,67 @@
+.header {
+  padding: 1px;
+  text-align: center;
+  background: #82b8da;
+  color: white;
+  font-size: 15px;
+   font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.dropdown {
+  position: absolute;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+  background-color: #0097b2;
+  color: white;
+  padding: 34px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside dropdown content */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change background color of dropdown button on hover */
+.dropdown:hover .dropbtn {
+  background-color: #008097;
+}
+
+body{
+  background-image: url('Screenshot\ 2025-09-15\ 010416.png');
+  background-size: cover;
+}
